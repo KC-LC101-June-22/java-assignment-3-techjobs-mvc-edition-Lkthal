@@ -34,7 +34,7 @@ public class ListController {
         tableChoices.put("positionType", JobData.getAllPositionTypes());
         tableChoices.put("coreCompetency", JobData.getAllCoreCompetency());
     }
-
+//request mapping//
     @GetMapping(value = "")
     public String list(Model model) {
         model.addAttribute("columns", columnChoices);
