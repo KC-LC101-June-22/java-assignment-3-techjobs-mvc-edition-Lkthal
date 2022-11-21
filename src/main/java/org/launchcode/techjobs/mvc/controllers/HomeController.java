@@ -20,6 +20,7 @@ public class HomeController {
         actionChoices.put("search", "Search");
         actionChoices.put("list", "List");
 
+
         model.addAttribute("actions", actionChoices);
 
         return "index";
